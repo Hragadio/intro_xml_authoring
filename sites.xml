@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal Web sites summary
+   Author: Hannah Ragadio
+   Date:   July 28, 2024 
+
+   Filename:         sites.xml
+   Supporting Files: sites.xsd
+-->
+<sites xmlns:xs="http://www.w3.org/2001/Schema" xmlns="http://example.com/weekendfunsnacks/sites" xs:schemaLocation="http://example.com/weekendfunsnacks/sites sites.xsd">
+    
+    <site>
+        <name>Weekend Fun Snacks</name>
+        <totalPages>127</totalPages>
+
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=6</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=18</loc>
+            <lastmod>2017-09-19T17:13:19+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=54</loc>
+            <lastmod>2017-09-19T15:24:01+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=52</loc>
+            <lastmod>2017-09-28T21:03:11+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=201</loc>
+            <lastmod>2017-10-06T07:03:26+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=11</loc>
+         </url>
+
+        </urlset>
+
+    </site>
+
+    <site>
+        <name>Paleo Snacks</name>
+        <totalPages>52</totalPages>
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=102</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=23</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=1</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=55</loc>
+            <lastmod>2017-06-12T08:05:32+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=201</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=87</loc>
+         </url>
+
+        </urlset>
+
+    </site>
+
+    <site>
+
+        <name>Veg Snacks</name>
+        <totalPages>17</totalPages>
+
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+         <url>
+            <loc>http://example.com/weekendfunsnacks/?cat=58</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/weekendfunsnacks/?cat=2</loc>
+            <lastmod>2017-12-29T06:03:34+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/weekendfunsnacks/?cat=15</loc>
+            <lastmod>2017-12-29T05:24:04+00:00</lastmod>
+         </url>
+
+         <url>
+            <loc>http://example.com/weekendfunsnacks/?cat=93</loc>
+         </url>
+
+         <url>
+            <loc>http://example.com/weekendfunsnacks/?cat=55</loc>
+         </url>
+
+        </urlset>
+
+    </site>
+
+</sites>

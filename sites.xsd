@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal sites vocabulary schema
+   Author: Hannah Ragadio
+   Date:   July 28, 2024 
+
+   Filename:         sites.xsd
+   Supporting Files: 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:cc="http://example.com/weekendfunsnacks/sites" 
+           xmlns:sm="http://www.sitemaps.org/schemas/sitemap/0.9"
+           targetNamespace="http://example.com/weekendfunsnacks/sites"
+           elementFormDefault="qualified" 
+           attributeFormDefault="unqualified">
+
+<xs:import  namespace="http://www.sitemaps.org/schemas/sitemap/0.9" 
+            schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"/>
+
+   <xs:element name="sites">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="site" maxOccurs="unbounded" minOccurs="0">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element type="xs:string" name="name"/>
+                     <xs:element type="xs:byte" name="totalPages"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
