@@ -12,7 +12,6 @@
   Supporting Files: cars.css
 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="cars.css"?>
 <?xml-stylesheet type="text/css" href="team.css"?>
 
