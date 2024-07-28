@@ -1,0 +1,97 @@
+
+<!--
+  New Perspectives on XML
+  Tutorial 4
+  Case Problem 4
+
+  South Racing cars list
+  Author: Hannah Ragadio
+  Date:   July 28,2024
+
+  Filename:         cars.xml
+  Supporting Files: cars.css
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cars.css"?>
+<?xml-stylesheet type="text/css" href="team.css"?>
+
+<teams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="teams.xsd"
+       xmlns:car="cars.xsd">
+  <team tid="t205">
+    <title>Rodas Motorsports</title>
+    <description>#1 Team in racing</description>
+    <series>Indy</series>
+    <cars>
+      <car cid="nes201">
+        <title>Straight Away</title>
+        <model>Nissan</model>
+        <driver>indy</driver>
+      </car>
+      <car cid="gda100-5">      
+        <title>Quick Start</title>
+        <model>General Motors</model>
+        <driver>indy</driver>      
+      </car>
+      <car cid="gma005-2">      
+        <title>Stop Blocks Laps</title>
+        <model>Ford</model>
+        <driver>indy</driver>     
+      </car>
+      <car cid="sob-450V4">      
+        <title>Bendwinder</title>
+        <model>Ford</model>
+        <driver>412</driver>     
+      </car>
+      <car cid="hen01-53">    
+        <title>Turn Twister</title>
+        <model>Nissan</model>
+        <driver>indy</driver>   
+      </car>
+      <car cid="stu-050V4">      
+        <title>Sleeker</title>
+        <model>General Motors</model>
+        <driver>278</driver>     
+      </car>
+      <car cid="dej01-003">    
+        <title>84 Racer</title>
+        <model>General Motors</model>
+        <driver>198</driver>   
+      </car>
+    </cars>
+  </team>
+
+  <team tid="t105">
+    <title>SAM Racing</title>
+    <description>Top 10 over last 5 years</description>
+    <series>Nascar</series>
+    <cars>
+      <car cid="gma005-2">      
+        <title>Stop Blocks Laps</title>
+        <model>Ford</model>
+        <driver>indy</driver>     
+      </car>
+      <car cid="sob-450V4">      
+        <title>Bendwinder</title>
+        <model>Ford</model>
+        <driver>412</driver>     
+      </car>
+      <car cid="hen01-53">    
+        <title>Turn Twister</title>
+        <model>Nissan</model>
+        <driver>indy</driver>   
+      </car>
+      <car cid="stu-050V4">      
+        <title>Sleeker</title>
+        <model>General Motors</model>
+        <driver>278</driver>     
+      </car>
+      <car cid="dej01-003">    
+        <title>84 Racer</title>
+        <model>General Motors</model>
+        <driver>198</driver>   
+      </car>
+    </cars>
+  </team>
+</teams>
