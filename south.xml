@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<!DOCTYPE racing [
+<!ELEMENT racing (t:teams,c:cars)>
+<!ATTLIST racing
+xmlns CDATA #FIXED "http://example.com/southracing">
+
+<!ELEMENT t:teams (t:team+)>
+<!ELEMENT t:teams (t:title, t:description, t:series)>
+<!ELEMENT t:title (#PCDATA)>
+<!ELEMENT t:description (#PCDATA)>
+<!ELEMENT t:series (#PCDATA)>
+<!ATTLIST t:teams
+xmlns:t CDATA #FIXED "http://example.com/southracing/teams" >
+<!ATTLIST t:teams
+tid ID #REQUIRED
+cars IDREFS #REQUIRED>
+
+<!ELEMENT c:cars (c:car+)>
+<!ELEMENT c:cars (c:title, c:model, c:driver)>
+<!ELEMENT c:title (#PCDATA)>
+<!ELEMENT c:model (#PCDATA)>
+<!ELEMENT c:driver (#PCDATA)>
+<!ATTLIST c:cars
+xmlns:c CDATA #FIXED "http://example.com/southracing/cars">
+<!ATTLIST c:cars
+cid ID #REQUIRED
+team IDREFS #REQUIRED>
+
+<!ENTITY teamsList SYSTEM "teams.xml">
+<!ENTITY carsList SYSTEM "cars.xml">
+]>
+
+<racing xmlns="http://example.com/southracing">
+&teamsList;
+&carsList;
+</racing>

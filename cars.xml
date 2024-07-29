@@ -1,0 +1,45 @@
+
+
+<c:cars xmlns:c="http://example.com/southracing/cars">
+   <c:car cid="nes201" team="t205 t105">
+      <c:title>Straight Away</c:title>
+      <c:model>Nissan</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="gda100-5" team="t205 t105">      
+      <c:title>Quick Start</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>indy</c:driver>      
+   </c:car>
+
+   <c:car cid="gma005-2" team="t205 t105">      
+      <c:title>Stop Blocks Laps</c:title>
+      <c:model>Ford</c:model>
+      <c:driver>indy</c:driver>     
+   </c:car>
+
+   <c:car cid="sob-450V4" team="t205">      
+      <c:title>Bendwinder</c:title>
+      <c:model>Ford</c:model>
+      <c:driver>412</c:driver>     
+   </c:car>
+
+   <c:car cid="hen01-53" team="t205">    
+      <c:title>Turn Twister</c:title>
+      <c:model>Nissan</c:model>
+      <c:driver>indy</c:driver>   
+   </c:car>
+
+   <c:car cid="stu-050V4" team="t105">      
+      <c:title>Sleeker</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>278</c:driver>     
+   </c:car>
+
+   <c:car cid="dej01-003" team="t105">    
+      <c:title>84 Racer</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>198</c:driver>   
+   </c:car>
+</c:cars>

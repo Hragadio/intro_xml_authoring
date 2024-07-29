@@ -1,0 +1,15 @@
+
+
+<t:teams xmlns:t="http://example.com/southracing/teams">
+   <t:team tid="t205" cars="nes201 gda100-5 gma005-2 sob-450V4 hen01-53">
+      <t:title>Rodas Motorsports</t:title>
+      <t:description>#1 Team in racing</t:description>
+      <t:series>Indy</t:series>
+   </t:team>
+
+   <t:team tid="t105" cars="nes201 gda100-5 gma005-2 sob-450V4 dej01-003">
+      <t:title>SAM Racing</t:title>
+      <t:description>Top 10 over last 5 years</t:description>
+      <t:series>Nascar</t:series>
+   </t:team>
+</t:teams>
